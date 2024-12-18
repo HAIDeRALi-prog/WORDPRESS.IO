@@ -1,0 +1,57 @@
+   body { float: centre filled;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background: url('background.jpg') no-repeat center center fixed;
+            background-size: cover; /* Ensures the image covers the entire screen */
+        }
+        header {
+            background: rgba(0, 0, 0, 0.7); 
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.9); /* Transparent white for content visibility */
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+ 	text-align: center;
+	font-size: 40px;
+            color: #0078d7;
+        } h2 {
+            color: #000000;
+        }h3 { 
+text-align:center;
+            color: #FFFFFF	;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+        .profile-img {
+            float: left; /* Aligns the image to the left */
+            margin-right: 15px; /* Adds space to the right of the image */
+            border-radius: 50%;
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            height: 2in; /* Footer height of 2 inches */
+            text-align: center;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+        }
+  
