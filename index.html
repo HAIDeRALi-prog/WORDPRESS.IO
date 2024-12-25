@@ -1,89 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My CV</title>
-    <link rel="stylesheet" href="styles.css"></link>
-
+   
+    <title>WikiWorld - Knowledge Sharing</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <header>
-        <h1>MY PORTFOLIO </h1>
-         <h3><hr>  HAIDER ALI  </h3> <h3>&emsp; JUNIOR SOFTWARE ENGINEER</h3>
-    </header>
-    <div class="container">
-        <div class="section">
-            <h2>About Me</h2>
-           
-            <a href="https://www.linkedin.com/in/yourprofile" target="_blank">
-                <img src="profilepic.jpg" alt="Haider Ali" class="profile-img">
-            </a>
-            <p><br><br><br><br>
-              Collaborative and detail-driven software engineer with a strong foundation in object-oriented design and algorithms. Eager to join a dynamic team and contribute to innovative software projects while fostering open communication and teamwork.<br><br><br><br>
-            </p>
-        </div>
-        <div class="section">
-            <h2>Skills</h2>
-            <ul>
-                <li>Programming: HTML, CSS, Python</li>
-                <li>Data Analysis with Excel</li>
-                <li>Team Collaboration and Communication</li>
-            </ul>
-        </div>
-        
-         <div class="section">
-    <h2>Education</h2>
-    <p>
-        <strong>Bachelor of Science in Software Engineering</strong> <br>
-        International Islamic University, Islamabad <br>
-        Expected Graduation: 2024
-    </p>
-    <p>
-        <strong>Intermediate in Computer Science</strong> <br>
-        M.A. Jinnah College of Commerce & Sciences <br>
-        Grade: A
-    </p>
-</div>
-       
-       <div class="section">
-    <h2>Work Experience</h2>
     
-    <p>
-        <strong>C++ Developer</strong> <br>
-        Responsibilities:
-        <ul>
-            <li>Assisted in the development of software applications using C++, focusing on enhancing performance.</li>
-            <li>Collaborated with developers to debug and optimize existing code, improving performance by 20%.</li>
-            <li>Participated in code reviews and contributed to documentation, ensuring adherence to coding standards and best practices.</li>
-        </ul>
-    </p>
+    <header>
+        <div class="container">
+            <h1>WikiWorld</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-    <p>
-        <strong>Data Entry Specialist</strong> <br>
-        Responsibilities:
-        <ul>
-            <li>Performed accurate data entry into databases and spreadsheets, maintaining a 99% accuracy rate.</li>
-            <li>Conducted data audits to identify and correct errors.</li>
-            <li>Assisted in developing data management processes, improving efficiency and reducing entry time by 15%.</li>
-            <li>Utilized advanced Excel functions (VLOOKUP, macros) to streamline data processing.</li>
-        </ul>
-    </p>
-</div>
-        <div class="section">
-            <h2>Contact</h2>
-            <p>Email: haidera.jaffri@gmail.com</p>
-            <p>Phone: +92 3170667722</p>
+   
+    <section class="search-section">
+        <div class="container">
+            <h2>Welcome to WikiWorld</h2>
+            <p>Your free knowledge source, share and discover articles on any topic!</p>
+            <div class="search-box">
+                <input type="text" id="search" placeholder="Search articles..." oninput="searchArticles()">
+                <button id="search-btn">Search</button>
+            </div>
         </div>
-        <div class="social-links">
-            <h2>Find Me Online</h2>
-            <a href="https://www.facebook.com/haideralishah11/" target="_blank">FACEBOOK</a>
-            <a href="https://github.com/HAIDeRALi-prog" target="_blank">GitHub</a>
-            
+    </section>
+
+   
+    <section class="articles">
+        <div class="container">
+            <h2>Featured Articles</h2>
+            <div class="article-list">
+                <div class="article-card">
+                    <h3>The Future of AI: What to Expect in 2025</h3>
+                    <p>Artificial Intelligence is expected to reach new heights by 2025. With advancements in machine learning, automation, and cognitive computing, AI will reshape industries like healthcare, education, and entertainment.</p>
+                    <a href="#">Read More</a>
+                </div>
+                <div class="article-card">
+                    <h3>Space Exploration in 2025: New Frontiers</h3>
+                    <p>By 2025, space exploration will be revolutionized. Private companies like SpaceX and Blue Origin are paving the way for missions to the Moon, Mars, and beyond. The future of human space travel looks bright.</p>
+                    <a href="#">Read More</a>
+                </div>
+                <div class="article-card">
+                    <h3>The Rise of Smart Cities: 2025 and Beyond</h3>
+                    <p>Smart cities are set to become the standard by 2025. With IoT technology, sustainable energy systems, and data-driven infrastructure, these cities will provide residents with improved quality of life and reduced environmental impact.</p>
+                    <a href="#">Read More</a>
+                </div>
+                <div class="article-card">
+                    <h3>Climate Change Solutions for the Next Decade</h3>
+                    <p>As we approach 2025, the fight against climate change will intensify. This article discusses innovative solutions like renewable energy, carbon capture, and sustainable agriculture that will help mitigate the effects of global warming.</p>
+                    <a href="#">Read More</a>
+                </div>
+                <div class="article-card">
+                    <h3>The Future of Work: Remote and Hybrid Workplaces in 2025</h3>
+                    <p>By 2025, the workplace will look very different. Remote and hybrid work models are becoming the norm, enabled by advancements in collaboration technology and changing attitudes towards work-life balance.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
+
+   
     <footer>
-        <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+        <div class="container">
+            <p>&copy; 2024 WikiWorld. All Rights Reserved.</p>
+            <div class="footer-nav">
+                <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a>
+            </div>
+        </div>
     </footer>
 
 </body>
